@@ -13,7 +13,7 @@ from curvefitgui import curve_fit_gui
 datafile = '$PATH/TO/FILE.csv'
 csv = np.genfromtxt (datafile, delimiter=",")
 y_data = csv[:,0]
-y = np.delete(y_data, 0) #cut first word
+y_data = np.delete(y_data, 0) #cut first word
 x_data = csv[:,1]
 x_data = np.delete(x_data, 0) #cut first word
 #produce error
