@@ -1,11 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Dec 20 13:35:31 2023
-
-@author: gerben
-"""
-
 import numpy as np
 import matplotlib.pyplot as plt
 from curvefitgui import curve_fit_gui
