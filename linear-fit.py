@@ -9,6 +9,9 @@ y_data = np.delete(y_data, 0) #cut first word
 x_data = csv[:,1]
 x_data = np.delete(x_data, 0) #cut first word
 #produce error
+Y_ERROR=0
+X_ERROR=0
+
 err_y = y*(Y_ERROR)
 err_x = x*(X_ERROR)
 # define a function for fitting
